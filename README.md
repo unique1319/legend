@@ -3,9 +3,9 @@
 提供一个快速生成图例的jQuery方法
 
 ## 示例 ##
-![Alt text](demo.png)
+![Alt text](https://unique1319.github.io/legend/demo.png)
 
-### [Demo](https://www.baidu.com/) ###
+### [Demo](https://unique1319.github.io/legend) ###
 ## 调用 ##
 ```
    $('#myLegend').Legend({
