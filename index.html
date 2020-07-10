@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="jquery.js"></script>
+    <script src="legend.js"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0
+        }
+
+        body {
+            position: relative;
+            background-color: #8e8e8e;
+        }
+
+        #myLegend {
+            background-color: white;
+            margin: 0 auto;
+            z-index: 999;
+            transform: translateY(200%);
+        }
+    </style>
+
+</head>
+<body>
+
+<div id="myLegend"></div>
+
+
+<script type="text/javascript">
+
+    $('#myLegend').Legend({
+        legend: [
+            {"background": " url('img/weathers.png') 0 0 no-repeat", "label": "能见度"},
+            {"background": " url('img/weathers.png') -30px 0 no-repeat", "label": "大风"},
+            {"background": " url('img/weathers.png') -60px 0 no-repeat", "label": "高温"},
+            {"background": " url('img/weathers.png') -90px 0 no-repeat", "label": "降水"}
+        ]
+    })
+
+</script>
+</body>
+</html>
