@@ -23,4 +23,5 @@
    'imgCell_height': 30,
    'labelCell_width': 70,
    'labelCell_padding_left': 12,
+   'legend': []
 ```
