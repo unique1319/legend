@@ -1,12 +1,12 @@
-##legend
+# legend #
 
 提供一个快速生成图例的jQuery方法
 
-####示例
+## 示例 ##
 ![Alt text](demo.png)
 
-###[Demo](https://www.baidu.com/)
-####调用
+### [Demo](https://www.baidu.com/) ###
+## 调用 ##
 ```
    $('#myLegend').Legend({
        legend: [
@@ -17,7 +17,7 @@
        ]
    })
 ```
-####默认参数
+## 默认参数 ##
 ```
    'imgCell_width': 30,
    'imgCell_height': 30,
