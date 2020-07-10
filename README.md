@@ -3,8 +3,6 @@
 提供一个快速生成图例的jQuery方法
 
 ## 示例 ##
-![image](https://github.com/unique1319/legend/demo.png)
-
 ### [Demo](https://unique1319.github.io/legend) ###
 ## 调用 ##
 ```
